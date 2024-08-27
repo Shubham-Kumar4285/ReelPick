@@ -54,7 +54,7 @@ if 'selected_option' not in st.session_state:
     st.session_state.selected_option = None
 
 st.title("🎬 Reel Pick")
-st.image(r"resource\frontpage.jpg", use_column_width=True)
+st.image(r"frontpage.jpg", use_column_width=True)
 st.write("Discover your next favorite movie with personalized recommendations!")
 
 st.write(
