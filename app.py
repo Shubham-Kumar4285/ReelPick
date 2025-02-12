@@ -5,12 +5,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
-OMDB_API_KEY = os.getenv('OMDB_KEY')
+OMDB_API_KEY = st.secrets['OMDB_KEY']
 movies_data = pd.read_pickle("movies.pkl")
 distances = pickle.load(open('distances.pkl','rb'))
 
