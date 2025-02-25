@@ -53,4 +53,4 @@
 
 ### 1. Clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/ReelPick.git
+git clone https://github.com/Shubham-Kumar4285/ReelPick.git
